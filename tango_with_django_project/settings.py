@@ -33,6 +33,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# Media definition
+
+MEDIA_ROOT = MEDIA_DIR
+MEDIA_URL = '/media/'
 
 # Application definition
 
@@ -76,11 +80,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
-
-# Media definition
-
-MEDIA_ROOT = MEDIA_DIR
-MEDIA_URL = '/media/'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
