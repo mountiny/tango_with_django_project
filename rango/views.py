@@ -87,4 +87,4 @@ def add_page(request, category_name_slug):
 
 def about(request):
 
-    return render(request, 'rango/about.html', context={})
+    return render(request, 'rango/about.html', {})
